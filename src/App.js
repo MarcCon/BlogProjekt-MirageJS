@@ -24,7 +24,7 @@ function App() {
       .then((response) => response.json())
       .then((data) => {
         setTodos([...todos, data.todo]);
-        setNewTodo(""); // Setze das Eingabefeld zurück
+        setNewTodo("");
       });
   };
 
